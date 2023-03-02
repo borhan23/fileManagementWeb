@@ -19,7 +19,7 @@ Below command should run to up the client after start the backend side.
 
 Web page can be see with "http://localhost:4200/" url.
 
-![image](https://user-images.githubusercontent.com/32410197/222529338-45cbb5af-443b-4af6-8f98-794e540b138c.png)
+![image](https://user-images.githubusercontent.com/32410197/222530655-c69a3d6b-7caf-470b-8124-cdf51fda9c4e.png)
 
 But There is a CORS policy error. Problem will be solve on the future. Some cors solutions have been added to springboot and angular. But It didnt fixed.
 
