@@ -1,16 +1,16 @@
 <div>
-  <h1>Dosya Yükleme ve Listeleme Sayfası</h1>
+  <h1>File Management Page</h1>
   <div>
     <input type="file" (change)="onFileSelected($event)">
-    <button (click)="onUpload()">Yükle</button>
+    <button (click)="onUpload()">Upload</button>
   </div>
   <div *ngIf="files && files.length">
-    <h2>Yüklenen Dosyalar</h2>
+    <h2>Uploaded Files</h2>
     <ul>
       <li *ngFor="let file of files">
         {{ file.filename }} - {{ file.filesize }} bytes - {{ file.fileExtension }}
-        <button (click)="onDelete(file.fileId)">Sil</button>
-        <button (click)="onReplace(file.fileId)">Değiştir</button>
+        <button (click)="onDelete(file.fileId)">Delete</button>
+        <button (click)="onReplace(file.fileId)">Replace</button>
       </li>
     </ul>
   </div>
