@@ -13,9 +13,9 @@ Requirements:
 
 ![image](https://user-images.githubusercontent.com/32410197/222528427-112e4337-8801-4ea5-b6e9-71152d6a77ef.png)
 
-Below command should run to up the client after start the backend side.
+Below command should run in 'master/fileManagementWeb/src/app' pathh to up the client after start the backend side.
 
-"npm run start"
+"npm run start" 
 
 Web page can be see with "http://localhost:4200/" url.
 
